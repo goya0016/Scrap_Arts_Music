@@ -1,0 +1,53 @@
+{
+  "name": "Scrap-App",
+  "short_name": "Scrap-App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#262424",
+  "orientation": "portrait-primary",
+  "prefer-related-application": true,
+  "description": "Interactive music app from Scrap Arts Music developed by KODE",
+  "icons": [
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "513x513",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "385x385",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "193x193",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "153x153",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "145x145",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "129x129",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "97x97",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "73x73",
+      "type": "image/png"
+    }
+  ]
+}

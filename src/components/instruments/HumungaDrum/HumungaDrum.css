@@ -1,0 +1,97 @@
+.humungaDrum {
+  height: 300px;
+  width: 300px;
+}
+
+.humDrumContainer {
+  overflow: hidden;
+}
+
+.drumButtons {
+  color: white;
+}
+.drum {
+  position: absolute;
+  margin-top: -100px;
+  padding-left: -10%;
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+}
+.drumRim {
+  position: absolute;
+  margin-top: -220px;
+  margin-left: -14%;
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+}
+.drumShell {
+  position: absolute;
+  margin-top: -150px;
+  padding-left: -5%;
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+}
+.drumSuctionCup {
+  position: absolute;
+  margin-top: -230px;
+  margin-left: -2%;
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+}
+@media only screen and (min-width: 500px) {
+  .drumRim {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -8%;
+  }
+  .drumSuctionCup {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -2%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .drumRim {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -7%;
+  }
+  .drumSuctionCup {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -2%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .drumRim {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -6%;
+  }
+  .drumSuctionCup {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -2%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .drumRim {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -4%;
+  }
+  .drumSuctionCup {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -2%;
+  }
+}

@@ -1,0 +1,78 @@
+.creatorImg {
+  height: 200px;
+  width: 320px;
+  box-shadow: 5px 10px #262424;
+}
+
+.bioItemContainer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #262424;
+  color: rgb(223, 223, 223);
+  font-weight: 400;
+  margin-bottom: 20%;
+  font-family: "faune", sans-serif;
+  hyphens: auto;
+  text-align: left;
+  font-size: 17px;
+}
+
+.creatorInfoScrap {
+  font-weight: 400;
+}
+
+.creatorName {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.creatorBio {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.creatorRole {
+  color: white;
+  padding-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.creatorTrivia {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  font-weight: 400;
+}
+
+.creatorInfo {
+  color: black;
+  background-color: white;
+  padding: 30px;
+  font-weight: 400;
+}
+
+.creatorReview {
+  color: white;
+  background-color: red;
+  padding: 30px;
+  font-size: 25px;
+  margin: -25px;
+  font-weight: 400;
+}
+
+.creatorBioInformation {
+  margin: 0;
+  padding: 0;
+}
+
+.bioInstagram {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 400;
+}

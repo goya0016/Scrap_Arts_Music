@@ -1,0 +1,145 @@
+.theEye {
+  height: 300px;
+  width: 300px;
+}
+
+.eyeContainer {
+  overflow: hidden;
+}
+
+.c {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -135px;
+  margin-left: 1%;
+  color: white;
+}
+
+.b {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -110px;
+  margin-left: -4%;
+  color: white;
+}
+
+.d {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -185px;
+  margin-left: 2%;
+  color: white;
+}
+
+.e {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -235px;
+  margin-left: -3%;
+  color: white;
+}
+.gliss {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -135px;
+  margin-left: 18%;
+  color: white;
+}
+@media only screen and (min-width: 390px) {
+  .gliss {
+    margin-left: 15%;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .gliss {
+    margin-left: 13%;
+  }
+  .b {
+    margin-left: -3%;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .gliss {
+    margin-left: 12%;
+  }
+  .b {
+    margin-left: -3%;
+  }
+}
+@media only screen and (min-width: 570px) {
+  .gliss {
+    margin-left: 10%;
+  }
+  .b {
+    margin-left: -2%;
+  }
+  .e {
+    margin-left: -2%;
+  }
+}
+@media only screen and (min-width: 570px) {
+  .gliss {
+    margin-left: 9%;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .gliss {
+    margin-left: 8%;
+  }
+  .b {
+    margin-left: -1.5%;
+  }
+  .e {
+    margin-left: -1.5%;
+  }
+}
+@media only screen and (min-width: 870px) {
+  .gliss {
+    margin-left: 7%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .gliss {
+    margin-left: 6%;
+  }
+  .d {
+    margin-left: 1%;
+  }
+  .c {
+    margin-left: 0%;
+  }
+  .b {
+    margin-left: -1%;
+  }
+  .e {
+    margin-left: -1%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .gliss {
+    margin-left: 5%;
+  }
+  .d {
+    margin-left: 0.5%;
+  }
+  .c {
+    margin-left: -0.3%;
+  }
+  .b {
+    margin-left: -0.8%;
+  }
+  .e {
+    margin-left: -0.8%;
+  }
+}

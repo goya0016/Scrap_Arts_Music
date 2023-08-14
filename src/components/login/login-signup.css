@@ -1,0 +1,70 @@
+form {
+  width: 90vw;
+  font-family: "Faune", sans-serif;
+}
+
+h4 {
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 900;
+  margin-bottom: 25px;
+}
+
+.center form {
+  margin: auto;
+}
+.loginNavTitle,
+.signUpNavTitle {
+  font-family: "Courier New", Courier, monospace;
+}
+label .active {
+  color: white;
+}
+
+.link {
+  font-size: 1.2rem;
+  width: 100vw;
+  font-family: "Faune", sans-serif;
+}
+.input {
+  margin-top: 10px;
+  color: white;
+}
+
+.input-field > label {
+  color: white;
+  font-weight: 300;
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
+  color: white;
+  font-weight: 300;
+}
+input[type="password"]:not(.browser-default):focus:not([readonly]) + label {
+  color: white;
+  font-weight: 300;
+}
+input[type="email"]:not(.browser-default):focus:not([readonly]) + label {
+  color: white;
+  font-weight: 300;
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+input[type="password"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+input[type="email"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+.reset {
+  display: block;
+  margin: auto;
+}
+
+.center {
+  padding-bottom: 30%;
+}

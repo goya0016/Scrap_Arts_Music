@@ -1,0 +1,104 @@
+.wallEHorn {
+  height: 300px;
+  width: 300px;
+}
+
+.wallEContainer {
+  overflow: hidden;
+}
+.hornOne {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: -16%;
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+}
+.hornTwo {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: -10%;
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+}
+.hornThree {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: -4%;
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+}
+@media only screen and (min-width: 500px) {
+  .hornOne {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -13%;
+  }
+  .hornTwo {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -8.5%;
+  }
+  .hornThree {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -4%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hornOne {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -10%;
+  }
+  .hornTwo {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -6%;
+  }
+  .hornThree {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -2%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .hornOne {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -6%;
+  }
+  .hornTwo {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -4%;
+  }
+  .hornThree {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -1%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .hornOne {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -5%;
+  }
+  .hornTwo {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -3%;
+  }
+  .hornThree {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -1%;
+  }
+}

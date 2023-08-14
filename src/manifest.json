@@ -1,0 +1,9 @@
+{
+  "short_name": "My App",
+  "name": "Longer version of App Name",
+  "start_url": "index.html?launcher=true",
+  "display": "standalone",
+  "background_color": "#E4E4E4",
+  "theme_color": "#BADA55",
+  "description": "This is the description of my PWA"
+}

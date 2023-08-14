@@ -1,0 +1,76 @@
+.dervishDrums {
+  height: 480px;
+  width: 350px;
+}
+
+.dervishContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dervishButtonContqainer {
+  position: absolute;
+}
+
+.dervishButton {
+  margin: 10px;
+  padding: 10px;
+  background-color: #54a743;
+}
+
+.dervishButtonOne {
+  margin-bottom: 60px;
+  margin-left: 20px;
+
+  opacity: 0.5;
+}
+
+.dervishButtonTwo {
+  margin-bottom: 60px;
+
+  opacity: 0.5;
+}
+
+/* @media only screen and (min-width: 500px) {
+  .dervishButtonOne {
+    position: absolute;
+    margin-top: -358px;
+    margin-left: 42%;
+  }
+
+  .dervishButtonTwo {
+    position: absolute;
+    margin-top: -253px;
+    margin-left: 38%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .dervishButtonOne {
+    position: absolute;
+    margin-top: -358px;
+    margin-left: 45%;
+  }
+
+  .dervishButtonTwo {
+    position: absolute;
+    margin-top: -253px;
+    margin-left: 43%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .dervishButtonOne {
+    position: absolute;
+    margin-top: -358px;
+    margin-left: 46%;
+  }
+
+  .dervishButtonTwo {
+    position: absolute;
+    margin-top: -253px;
+    margin-left: 44%;
+  }
+} */

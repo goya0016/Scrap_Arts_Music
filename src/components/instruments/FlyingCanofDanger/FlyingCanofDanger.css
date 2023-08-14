@@ -1,0 +1,27 @@
+.dangerIMG {
+  height: 480px;
+  width: 350px;
+}
+
+.canButton {
+  background-color: #54a743;
+  opacity: 0.5;
+  padding: 80px;
+  position: absolute;
+  justify-content: center;
+}
+
+.canButton:focus {
+  background-color: #54a743;
+  opacity: 0.5;
+  padding: 80px;
+  position: absolute;
+  justify-content: center;
+}
+
+.canContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

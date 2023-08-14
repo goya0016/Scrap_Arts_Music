@@ -1,0 +1,37 @@
+.navStyle {
+  display: flex;
+  align-content: center;
+  list-style: none;
+  justify-content: center;
+  font-family: "faune", sans-serif;
+ 
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.NavBar {
+  width: 500;
+}
+
+svg {
+  margin-bottom: 5px;
+}
+
+.MuiBottomNavigationAction-root.Mui-selected {
+  color: #ffffff !important;
+}
+.MuiBottomNavigationAction-root.Mui-selected label {
+  color: #ffffff !important;
+}
+
+.MuiBottomNavigationAction-label.Mui-selected{
+  font-size: 15.5px !important;
+}

@@ -1,0 +1,88 @@
+.xylobeIMG {
+  height: 480px;
+  width: 350px;
+}
+
+.buttonContainer {
+  position: absolute;
+  display: grid;
+  margin-top: -45px;
+  margin-left: 10px;
+}
+
+.xylobeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.buttonLeft {
+  padding: 15px;
+  margin-left: 72px;
+  background-color: #54a743;
+  opacity: 0.5;
+}
+
+.buttonRight {
+  padding: 15px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-right: 72px;
+}
+
+@media only screen and (min-width: 500px) {
+  .xylobeIMG {
+    height: 80%;
+    width: 80%;
+  }
+
+  .buttonContainer {
+    position: absolute;
+    display: grid;
+    margin-top: -10%;
+    margin-left: 17px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .xylobeIMG {
+    height: 40%;
+    width: 50%;
+  }
+
+  .buttonContainer {
+    position: absolute;
+    display: grid;
+    margin-top: -6%;
+    margin-left: 17px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .xylobeIMG {
+    height: 40%;
+    width: 50%;
+  }
+
+  .buttonContainer {
+    position: absolute;
+    display: grid;
+    margin-top: -81px;
+    margin-left: 17px;
+  }
+
+  .buttonLeft {
+    padding: 15px;
+    margin-left: 72px;
+    background-color: green;
+    opacity: 0.7;
+  }
+
+  .buttonRight {
+    padding: 20px;
+    background-color: green;
+    opacity: 0.7;
+    margin-right: 72px;
+  }
+}

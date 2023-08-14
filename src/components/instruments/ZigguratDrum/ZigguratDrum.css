@@ -1,0 +1,155 @@
+.zigguratDrum {
+  height: 300px;
+  width: 300px;
+}
+
+.zigDrumContainer {
+  overflow: hidden;
+}
+
+.zig2 {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  background-color: #54a743;
+  opacity: 0.5;
+}
+.zigSuction {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  background-color: #54a743;
+  opacity: 0.5;
+}
+.zig1 {
+  width: 30px;
+  height: 30px;
+  background-color: #54a743;
+  opacity: 0.5;
+}
+.zigSwipe {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #54a743;
+  opacity: 0.5;
+}
+.zigUpside {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+}
+.zigButtons123 {
+  position: absolute;
+  margin-top: -265px;
+  margin-left: 46%;
+}
+.zigButtons45 {
+  width: 150px;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 49.5%;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 300px) {
+  .zigButtons123 {
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 33%;
+  }
+
+  .zigButtons45 {
+    width: 150px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 49.5%;
+  }
+}
+@media only screen and (min-width: 360px) {
+  .zigButtons123 {
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 35%;
+  }
+
+  .zigButtons45 {
+    width: 150px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 49.5%;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .zigButtons123 {
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 40%;
+  }
+
+  .zigButtons45 {
+    width: 150px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 49.5%;
+  }
+}
+@media only screen and (min-width: 660px) {
+  .zigButtons123 {
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 42%;
+  }
+
+  .zigButtons45 {
+    width: 150px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 49.5%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .zigButtons123 {
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 43%;
+  }
+
+  .zigButtons45 {
+    width: 150px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 49.5%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .zigButtons123 {
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 45%;
+  }
+
+  .zigButtons45 {
+    width: 150px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 49.5%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .zigButtons123 {
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 46.5%;
+  }
+
+  .zigButtons45 {
+    width: 150px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 49.5%;
+  }
+}

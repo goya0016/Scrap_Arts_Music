@@ -1,0 +1,111 @@
+.missleTheRed {
+  height: 480px;
+  width: 350px;
+}
+
+.missleRedContainer {
+  overflow: hidden;
+}
+
+.missleBtn1 {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -390px;
+  margin-left: -11%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+.missleBtn2 {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -390px;
+  margin-left: 1%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+@media only screen and (min-width: 500px) {
+  .missleTheRed {
+    height: 520px;
+    width: 390px;
+  }
+  .missleBtn1 {
+    margin-top: -420px;
+    margin-left: -10%;
+  }
+  .missleBtn2 {
+    margin-top: -420px;
+    margin-left: 2%;
+  }
+}
+@media only screen and (min-width: 610px) {
+  .missleTheRed {
+    height: 520px;
+    width: 390px;
+  }
+  .missleBtn1 {
+    margin-top: -420px;
+    margin-left: -8%;
+  }
+  .missleBtn2 {
+    margin-top: -420px;
+    margin-left: 1%;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .missleTheRed {
+    height: 560px;
+    width: 430px;
+  }
+  .missleBtn1 {
+    margin-top: -450px;
+    margin-left: -7%;
+  }
+  .missleBtn2 {
+    margin-top: -450px;
+    margin-left: 1%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .missleBtn {
+    margin-left: -3%;
+  }
+  .missleBtn1 {
+    margin-top: -450px;
+    margin-left: -5%;
+  }
+  .missleBtn2 {
+    margin-top: -450px;
+    margin-left: 1%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .missleTheRed {
+    height: 600px;
+    width: 470px;
+  }
+  .missleBtn1 {
+    margin-top: -480px;
+    margin-left: -5%;
+  }
+  .missleBtn2 {
+    margin-top: -480px;
+    margin-left: 1%;
+  }
+}
+@media only screen and (min-width: 1350px) {
+  .missleBtn1 {
+    margin-top: -480px;
+    margin-left: -4%;
+  }
+  .missleBtn2 {
+    margin-top: -480px;
+    margin-left: 1%;
+  }
+}

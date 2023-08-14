@@ -1,0 +1,226 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+  max-width: 500px;
+}
+
+.individualInstrumentGallery {
+  margin-bottom: 100px;
+}
+
+.individualLoopContainers {
+  padding-bottom: 12%;
+}
+.individualLoopContainers span {
+  font-size: 20px;
+  font-family: "faune", sans-serif;
+}
+
+.individualLoopContainers p {
+  text-align: left;
+  padding: 3px 20px;
+  font-size: 16px;
+  color: #dbdbdb;
+  font-family: "faune", sans-serif;
+}
+.individualLoopContainers audio {
+  margin-bottom: 10%;
+}
+
+/* list items on loops */
+.MuiCollapse-wrapperInner {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+/*  */
+
+.react-slideshow-container {
+  padding-bottom: 12%;
+}
+
+.MuiTab-root {
+  font-family: "Courier Prime", monospace !important;
+}
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 12%;
+  flex-grow: 1;
+  justify-content: center;
+}
+svg {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  padding: 10px;
+  margin: 10px;
+  border: black 1px solid;
+  border-radius: 15px;
+}
+.secret {
+  flex-grow: 1;
+  color: #484848;
+  background-color: #dedcda;
+}
+.worst {
+  flex-grow: 1;
+  color: #a72929;
+  background-color: #f4c5c5;
+}
+.dislike {
+  flex-grow: 1;
+  color: #c49a11;
+  background-color: #f7f2cf;
+}
+.important {
+  flex-grow: 1;
+  color: #6e9460;
+  background-color: #e9ffe2;
+}
+.play {
+  flex-grow: 1;
+  color: #268a8f;
+  background-color: #d4f3ef;
+}
+.parts {
+  flex-grow: 1;
+  color: #cc561e;
+  background-color: #faf3e0;
+}
+.underline {
+  font-weight: bolder;
+  font-size: 18px;
+  border-bottom: #474747 1px solid;
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px 0px 5px 0px;
+}
+.info {
+  padding: 10px 0px;
+  justify-items: center;
+  font-size: 14px;
+  color: #3a3a3a;
+  font-family: "faune", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.test {
+  color: black;
+}
+.MuiSvgIcon-root {
+  background-color: gray;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+.favDiv {
+  margin-right: 5vw;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  width: auto;
+}
+.MuiAppBar-colorPrimary {
+  background-color: black;
+}
+div .MuiTabs-centered {
+  justify-content: space-evenly;
+}
+div .MuiAppBar-colorPrimary {
+  background-color: #262424;
+}
+button:focus {
+  background-color: #262424;
+}
+.bio {
+  background-color: #262424;
+}
+p {
+  padding: 0;
+}
+div .MuiBox-root {
+  height: 50vh;
+  padding: 0;
+  background-color: #262424;
+}
+.name {
+  font-family: "Courier Prime", monospace;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: left;
+  margin: 20px 20px 5px;
+}
+div {
+  color: white;
+}
+.group {
+  margin-left: 5vw;
+  text-align: left;
+  padding-left: 5vw;
+  padding-right: 10vw;
+  border-radius: 20px;
+  background-color: #663e3e;
+  display: table-caption;
+  caption-side: inherit;
+  font-family: "faune", sans-serif;
+}
+
+.MuiTypography-body1 {
+  background-color: #262424;
+}
+.react-audio-player {
+  margin: 10px;
+}
+
+/* Gallery */
+
+@import "react-slideshow-image/dist/styles.css";
+
+.each-slide > div {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 350px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

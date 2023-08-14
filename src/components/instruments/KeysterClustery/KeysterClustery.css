@@ -1,0 +1,61 @@
+.keysterClusteryContainer {
+  position: relative;
+  height: auto;
+  max-width: 600px;
+  padding: 20px;
+  margin: auto;
+}
+
+.keysterClusteryContainer img {
+  width: 100%;
+}
+
+.keyBtn {
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-right: 72px;
+  box-shadow: inset 0 -0.7em 0 -0.35em rgba(0, 0, 0, 0.17);
+  border: none;
+  box-sizing: border-box;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.keyBtn:focus {
+  background-color: #54a743;
+  opacity: 0.5;
+  border-radius: 2px solid #083318;
+}
+
+.clusteryEFlat {
+  top: 38%;
+  left: 20%;
+}
+
+.clusteryA {
+  top: 45%;
+  left: 45%;
+}
+
+.clusteryE {
+  top: 38%;
+  left: 68%;
+}
+
+.clusteryShellR {
+  top: 24%;
+  left: 62%;
+}
+
+.clusteryShellL {
+  top: 26%;
+  left: 33%;
+}
+
+@media only screen and (min-width: 500px) {
+  .keyBtn {
+    width: 40px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,248 @@
+.antlers {
+  height: 300px;
+  width: 300px;
+}
+
+.antlersContainer {
+  overflow: hidden;
+}
+
+.aflat {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -200px;
+  margin-left: -1%;
+  color: white;
+}
+
+.a {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -270px;
+  margin-left: 19%;
+  color: white;
+}
+
+.bflat {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -250px;
+  margin-left: -40%;
+  color: white;
+}
+
+.csharp {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -270px;
+  margin-left: 1%;
+  color: white;
+}
+
+.E {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -200px;
+  margin-left: -18%;
+  color: white;
+}
+
+.f {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -270px;
+  margin-left: -7%;
+  color: white;
+}
+
+.bell {
+  position: absolute;
+  margin: 10px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-top: -150px;
+  margin-left: -12%;
+  color: white;
+}
+
+@media only screen and (min-width: 350px) {
+  .bflat {
+    margin-top: -250px;
+    margin-left: -35%;
+  }
+}
+
+@media only screen and (min-width: 370px) {
+  .a {
+    margin-top: -270px;
+    margin-left: 17%;
+  }
+  .bell {
+    margin-top: -160px;
+    margin-left: -12%;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  .a {
+    margin-top: -270px;
+    margin-left: 15%;
+  }
+  .bflat {
+    margin-top: -250px;
+    margin-left: -30%;
+  }
+  .f {
+    margin-top: -270px;
+    margin-left: -5%;
+  }
+  .E {
+    margin-top: -200px;
+    margin-left: -16%;
+  }
+}
+@media only screen and (min-width: 470px) {
+  .a {
+    margin-top: -270px;
+    margin-left: 13%;
+  }
+  .bflat {
+    margin-top: -250px;
+    margin-left: -27%;
+  }
+  .E {
+    margin-top: -200px;
+    margin-left: -14%;
+  }
+}
+@media only screen and (min-width: 530px) {
+  .bflat {
+    margin-top: -250px;
+    margin-left: -24%;
+  }
+  .a {
+    margin-top: -270px;
+    margin-left: 11%;
+  }
+  .E {
+    margin-top: -200px;
+    margin-left: -12%;
+  }
+  .f {
+    margin-top: -270px;
+    margin-left: -3.5%;
+  }
+  .bell {
+    margin-top: -160px;
+    margin-left: -8%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .bflat {
+    margin-top: -250px;
+    margin-left: -20%;
+  }
+}
+@media only screen and (min-width: 650px) {
+  .a {
+    margin-top: -270px;
+    margin-left: 9%;
+  }
+  .E {
+    margin-top: -200px;
+    margin-left: -10%;
+  }
+  .bell {
+    margin-top: -160px;
+    margin-left: -6%;
+  }
+  .bflat {
+    margin-top: -250px;
+    margin-left: -18%;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .bflat {
+    margin-top: -250px;
+    margin-left: -16%;
+  }
+  .a {
+    margin-top: -270px;
+    margin-left: 7%;
+  }
+  .E {
+    margin-top: -200px;
+    margin-left: -8%;
+  }
+  .bell {
+    margin-top: -160px;
+    margin-left: -5%;
+  }
+  .f {
+    margin-top: -270px;
+    margin-left: -2%;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .bflat {
+    margin-top: -250px;
+    margin-left: -14%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .bflat {
+    margin-top: -250px;
+    margin-left: -10%;
+  }
+  .a {
+    margin-top: -270px;
+    margin-left: 5%;
+  }
+  .E {
+    margin-top: -200px;
+    margin-left: -5%;
+  }
+  .bell {
+    margin-top: -160px;
+    margin-left: -3%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .bflat {
+    margin-top: -250px;
+    margin-left: -8%;
+  }
+  .a {
+    margin-top: -270px;
+    margin-left: 4%;
+  }
+  .E {
+    margin-top: -200px;
+    margin-left: -4%;
+  }
+  .aflat {
+    margin-top: -210px;
+    margin-left: 0%;
+  }
+  .csharp {
+    margin-top: -270px;
+    margin-left: 0%;
+  }
+  .f {
+    margin-top: -270px;
+    margin-left: -1%;
+  }
+}

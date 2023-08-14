@@ -1,0 +1,252 @@
+.nonette {
+  height: 300px;
+  width: 300px;
+}
+.nonettecontainer {
+  overflow: hidden;
+}
+.nonette1 {
+  width: 20px;
+  height: 20px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-right: 5px;
+}
+.nonette2 {
+  width: 20px;
+  height: 20px;
+  background-color: #54a743;
+  opacity: 0.5;
+  margin-right: 27px;
+}
+.nonette3 {
+  width: 20px;
+  height: 20px;
+  background-color: #54a743;
+  opacity: 0.5;
+}
+.nonetteButton1 {
+  width: 125px;
+  position: absolute;
+  margin-top: -315px;
+  margin-left: 31.5%;
+}
+.nonetteButton23 {
+  width: 150px;
+  position: absolute;
+  margin-top: -217px;
+  margin-left: 36%;
+}
+
+/*media querys*/
+
+@media only screen and (min-width: 300px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 11%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 21%;
+  }
+}
+@media only screen and (min-width: 360px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 17%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 26%;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 18%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 27%;
+  }
+}
+@media only screen and (min-width: 460px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 24%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 31%;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 26%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 32%;
+  }
+}
+@media only screen and (min-width: 550px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 28%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 34%;
+  }
+}
+@media only screen and (min-width: 660px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 32%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 37%;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 35%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 39%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 35%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 39%;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 37%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 41%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 38%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 41%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 40%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 42.5%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 41.5%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 43.5%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 38%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 41%;
+  }
+}
+@media only screen and (min-width: 1640px) {
+  .nonetteButton1 {
+    width: 125px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 43%;
+  }
+  .nonetteButton23 {
+    width: 150px;
+    position: absolute;
+    margin-top: -217px;
+    margin-left: 44.7%;
+  }
+}

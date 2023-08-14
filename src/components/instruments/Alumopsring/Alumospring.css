@@ -1,0 +1,46 @@
+.alumospringImg {
+  height: 480px;
+  width: 350px;
+}
+.AlumoRightButton {
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+  border-color: black;
+  position: absolute;
+  margin-top: -290px;
+  margin-left: -15%;
+}
+.AlumoLeftButton {
+  background-color: #54a743;
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+  border-color: black;
+  position: absolute;
+  margin-top: -320px;
+  margin-left: 12%;
+}
+
+@media only screen and (min-width: 700px) {
+  .AlumoRightButton {
+    margin-top: -290px;
+    margin-left: -10%;
+  }
+  .AlumoLeftButton {
+    margin-top: -320px;
+    margin-left: 7%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .AlumoRightButton {
+    margin-top: -290px;
+    margin-left: -5%;
+  }
+  .AlumoLeftButton {
+    margin-top: -320px;
+    margin-left: 4%;
+  }
+}

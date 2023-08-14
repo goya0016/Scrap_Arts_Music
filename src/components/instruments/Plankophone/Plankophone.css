@@ -1,0 +1,131 @@
+.plankophoneContainer {
+  overflow: hidden;
+}
+
+.plankButton {
+  height: 30px;
+  background-color: #54a743;
+  opacity: 0.5;
+}
+
+.note1 {
+  position: absolute;
+  bottom: 10px;
+  left: 214px;
+  top: 420px;
+}
+
+.note2 {
+  position: absolute;
+  bottom: 10px;
+  left: 214px;
+  top: 380px;
+}
+
+.note3 {
+  position: absolute;
+  bottom: 10px;
+  left: 214px;
+  top: 345px;
+}
+
+.note4 {
+  position: absolute;
+  bottom: 10px;
+  left: 214px;
+  top: 312px;
+}
+
+.note5 {
+  position: absolute;
+  bottom: 10px;
+  left: 214px;
+  top: 283px;
+}
+
+.plankophone {
+  width: 300px;
+  height: 300px;
+}
+
+.plankoButton1 {
+  position: absolute;
+  margin-top: -250px;
+  margin-left: -10%;
+}
+.plankoButton2 {
+  position: absolute;
+  margin-top: -240px;
+  margin-left: -5%;
+}
+.plankoButton3 {
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 0%;
+}
+.plankoButton4 {
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 5%;
+}
+.plankoButton5 {
+  position: absolute;
+  margin-top: -210px;
+  margin-left: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+  .plankoButton1 {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -5%;
+  }
+  .plankoButton2 {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: -3%;
+  }
+  .plankoButton3 {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 0%;
+  }
+  .plankoButton4 {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 2.5%;
+  }
+  .plankoButton5 {
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .plankoButton1 {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -2%;
+  }
+  .plankoButton2 {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: -1%;
+  }
+  .plankoButton3 {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 0.25%;
+  }
+  .plankoButton4 {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 1.5%;
+  }
+  .plankoButton5 {
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 2.5%;
+  }
+}

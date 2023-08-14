@@ -1,0 +1,216 @@
+/* Page Title */
+.musiclabTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Main Conatiner */
+.storeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  columns: 2;
+  justify-content: center;
+}
+
+/* Card container */
+.musicLibary {
+  background-color: #262424;
+  margin: 20px;
+  width: 90%;
+  height: 220px;
+  display: block;
+  box-shadow: 0px 0px 8px #000000bf;
+  border-radius: 5px;
+}
+
+/* Music Library info Card */
+.musicLibary h6 {
+  text-align: left;
+  margin: 0;
+  font-family: "faune", sans-serif;
+  font-size: 20px;
+  margin: 10px 15px;
+}
+
+.musicContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 15px;
+  height: auto;
+}
+
+.photoContainer {
+  width: 100px;
+  height: 150px;
+}
+.photoContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #00000067;
+  height: 150px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  margin: 0%;
+  justify-content: space-between;
+}
+
+.infoContainer div {
+}
+
+.title {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgb(54, 54, 54);
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+.description {
+  font-family: "faune", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #ffffffe0;
+  margin: 0%;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  display: flex;
+}
+
+.purchaseBtn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  border-radius: 20px;
+  align-self: flex-end;
+}
+
+.infoContainer a {
+  font-family: "faune", sans-serif;
+  color: rgb(255, 103, 103);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+
+.infoContainer svg {
+  margin: 5px 0px 0px 10px;
+  color: rgb(255, 103, 103);
+}
+
+/* Merch Container */
+.merchContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 15px;
+  height: auto;
+}
+
+.storeContainer {
+  padding-bottom: 20%;
+}
+
+@media (max-width: 500px) {
+  .photoContainer img {
+    width: 100px;
+  }
+  /* .infoContainer {
+    max-width: 300px;
+  } */
+}
+@media (max-width: 750px) {
+  /* .infoContainer {
+    max-width: 300px;
+  } */
+}
+@media (min-width: 650px) and (max-width: 750px) {
+  /* .infoContainer {
+    min-width: 350px;
+  } */
+}
+
+@media (min-width: 230px) and (max-width: 400px) {
+  .musicLibary {
+    background-color: #262424;
+    margin: 20px;
+    /* width: 118%; */
+    height: 220px;
+    display: block;
+    box-shadow: 0px 0px 8px #000000bf;
+    border-radius: 5px;
+    height: 300px;
+    display: block;
+    min-width: 250px;
+  }
+  .title {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(54, 54, 54);
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  .storeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    columns: 2;
+    justify-content: center;
+  }
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 600px) and (max-width: 750px) {
+  .storeContainer {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (min-width: 751px) and (max-width: 1000px) {
+  .musicLibary {
+    width: 46%;
+    margin-right: 0px;
+  }
+  .photoContainer img {
+    width: 100px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .musicLibary {
+    width: 500px;
+    margin-right: 0px;
+  }
+  .storeContainer {
+    width: 90%;
+    margin: auto;
+  }
+  .musiclabTitle {
+    width: 87%;
+    margin: auto;
+  }
+}

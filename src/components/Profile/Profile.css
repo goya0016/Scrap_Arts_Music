@@ -1,0 +1,108 @@
+.infoContainer {
+  background-color: #262424;
+  padding: 10px;
+  margin: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.userProfilePicture {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.UserName {
+  font-family: "Faune", sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  text-align: left;
+  margin: 10px;
+  padding-left: 5vw;
+}
+
+.favLabel {
+  text-align: left;
+  padding-left: 10px;
+  font-family: "Faune", sans-serif;
+  font-weight: 400;
+  display: flex;
+  height: 50px;
+}
+.favIcon {
+  float: left;
+  margin-left: 0;
+  align-self: center;
+  margin-right: 10px;
+}
+.favInstrumentsContainer {
+  background-color: #262424;
+
+  margin: 20px;
+}
+
+.favInstrumentsContainer img {
+  max-width: 80px;
+  height: auto;
+}
+
+.instrumentInfo {
+  display: flex;
+  flex-direction: row;
+  min-width: 300px;
+}
+.favInstrument {
+  margin: 0px;
+  align-self: center;
+}
+.settingsIcon {
+  margin-right: 5vw;
+  align-self: center;
+  float: right;
+}
+.saved {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.cardLabel {
+  font-family: "Courier New", Courier, monospace;
+  color: "#AFAFAF";
+  margin-left: 15px;
+}
+
+#form {
+  opacity: 0;
+  display: none;
+}
+
+.activePara {
+  display: none;
+}
+
+.checkIcon {
+  color: #d3605c;
+  margin-right: 15px;
+  width: 30px;
+}
+
+.inputModal {
+  margin-top: 20px;
+}
+
+.para {
+  font-weight: 700;
+}
+.disabled {
+  display: none !important;
+  pointer-events: none;
+}
+
+@media (max-width: 500px){}
+  .infoContainer {
+    width: 500px;
+}
