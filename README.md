@@ -123,6 +123,7 @@ For our project you will be using these credentials in your env file.
 
 ```
 
+
 ## Adding data to your database.
 
 1. If you are using the provided credentials above, please head to the installtion. If you are uploading your own data follow the steps below.
