@@ -122,15 +122,6 @@ In your project settings grab your Firebase SDK and create a .env file at root o
 For our project you will be using these credentials in your env file.
 
 ```
-REACT_APP_API_KEY = AIzaSyCayZNGKOu4gIb6hjmtz8wMsk3KHOccVk4
-REACT_APP_AUTH_DOMAIN = test-21f91.firebaseapp.com
-REACT_APP_DATABASE_URL = https://test-21f91-default-rtdb.firebaseio.com
-REACT_APP_PROJECT_ID = test-21f91
-REACT_APP_STORAGE_BUCKET = test-21f91.appspot.com
-REACT_APP_MESSAGING_SENDERID = 501838771974
-REACT_APP_APP_ID = 1:501838771974:web:5c4311797e2c2481535087
-REACT_APP_MEASUREMENT_ID = G-B73F8KSNBL
-```
 
 ## Adding data to your database.
 
@@ -147,8 +138,10 @@ REACT_APP_MEASUREMENT_ID = G-B73F8KSNBL
 5. import will be the name of your private key, and upload will be the name for the data your are uploading.
 
 ```
+
 npx -p node-firestore-import-export firestore-import -a import.json -b upload.json
-```
+
+````
 
 ## Installation
 
@@ -156,7 +149,7 @@ npx -p node-firestore-import-export firestore-import -a import.json -b upload.js
 
 ```sh
 git clone https://github.com/Scrap-Arts-Music/Scrap-Arts-Music.git
-```
+````
 
 2. Once you have cloned the repo you will need to go into the dev branch for testing. Type this command to get the dev branch onto your computer.
 
@@ -205,11 +198,12 @@ yarn start
 ```
 yarn build
 ```
+
 6. after your build has finished, cd into the build folder and run the following command.
+
 ```
 npx serve
 ```
-
 
 ## Creating an Instrument
 
